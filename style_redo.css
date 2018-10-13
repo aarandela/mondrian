@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+body .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* ===============================columns===================== */
+body .container .columnA,
+body .container .columnB,
+body .container .columnC {
+    display: flex;
+    flex: 2;
+    height: 90vh;
+    flex-direction: column;
+}
+
+/* ===============================square 1======================= */
+body .container .columnA .square1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnA .square1 .row1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnA .square1 .row1 .box1 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square1 .row1 .box2 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square1 .row2 {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnA .square1 .row2 .column1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnA .square1 .row2 .column1 .box3{
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square1 .row2 .column1 .box4 {
+    flex: 1;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square1 .row2 .box5 {
+    flex: 4;
+    border: 3px solid black;
+    background-color: red;
+}
+/* ===========================sqaure4====================== */
+body .container .columnA .square4 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnA .square4 .column7 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnA .square4 .column7 .row6 {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnA .square4 .column7 .row6 .column8 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnA .square4 .column7 .row6 .column8 .box24 {
+    flex: 1;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square4 .column7 .row6 .column8 .box25 {
+    flex: 3;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnA .square4 .column7 .row6 .column9 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnA .square4 .column7 .row6 .column9 .box26 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: black;
+}
+
+body .container .columnA .square4 .column7 .row6 .column9 .box27 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square4 .column7 .box28 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square4 .column10 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnA .square4 .column10 .box29 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square4 .column10 .box30 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnA .square4 .column10 .box31 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: black;
+}
+
+body .container .columnA .square4 .column10 .row7 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnA .square4 .column10 .row7 .box32 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnA .square4 .column10 .row7 .box33 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+
+/* =================================start of column B================ */
+body .container .columnB .square2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnB .square2 .column2,
+body .container .columnB .square2 .column3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnB .square2 .column2 .box6 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnB .square2 .column2 .box7 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnB .square2 .column2 .row3 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnB .square2 .column2 .row3 .box8 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnB .square2 .column2 .row3 .box9 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnB .square2 .column3 .box10 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: blue;
+}
+
+body .container .columnB .square2 .column3 .box11 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: red;
+}
+
+body .container .columnB .square2 .column3 .box12 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+/* =======================sqaure5========================= */
+body .container .columnB .square5 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnB .square5 .column11,
+body .container .columnB .square5 .column12 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnB .square5 .column11 .box34 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnB .square5 .column11 .box35 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: blue;
+}
+
+body .container .columnB .square5 .column11 .box36 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: red;
+}
+
+body .container .columnB .square5 .column12 .row8 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnB .square5 .column12 .row8 .box37 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnB .square5 .column12 .row8 .box38 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnB .square5 .column12 .box39 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnB .square5 .column12 .row9 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnB .square5 .column12 .row9 .box40 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnB .square5 .column12 .row9 .box41 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: black;
+}
+
+/* ======================start columnC====================== */
+body .container .columnC .square3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnC .square3 .row4 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnC .square3 .row4 .box13 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnC .square3 .row4 .box14 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+body .container .columnC .square3 .row4 .box15 {
+    flex: 3;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square3 .row5 {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnC .square3 .row5 .column4 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnC .square3 .row5 .column4 .box16 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnC .square3 .row5 .column4 .box17 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+body .container .columnC .square3 .row5 .column4 .box18 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square3 .row5 .column4 .box19 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square3 .row5 .column5 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnC .square3 .row5 .column5 .box20 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square3 .row5 .column5 .box21 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+body .container .columnC .square3 .row5 .column6 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnC .square3 .row5 .column6 .box22 {
+    flex: 3;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+body .container .columnC .square3 .row5 .column6 .box23 {
+    flex: 1;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    background-color: white;
+}
+
+
+/* ============================square 6================== */
+body .container .columnC .square6 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnC .square6 .row10 {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnC .square6 .row10 .box41 {
+    flex: 4;
+    border: 3px solid black;
+    background-color: blue;
+}
+
+body .container .columnC .square6 .row10 .column13 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .columnC .square6 .row10 .column13 .box42 {
+    flex: 1;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square6 .row10 .column13 .box43 {
+    flex: 1;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square6 .row11 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+body .container .columnC .square6 .row11 .box44 {
+    flex: 3;
+    border: 3px solid black;
+    background-color: white;
+}
+
+body .container .columnC .square6 .row11 .box45 {
+    flex: 2;
+    border: 3px solid black;
+    background-color: white;
+}
